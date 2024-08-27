@@ -34,7 +34,7 @@ const pi = 3.14159;
 console.log(pi); // 3.14159
 // pi = 3.14; // Isso causará um erro, pois não podemos reatribuir um valor a uma variável `const`
 ```
-*Strings*
+## Strings
 Descrição: Strings são sequências de caracteres. Em JavaScript, você pode criar strings usando aspas simples ('), aspas duplas ("), ou crases (`) para template literals.
 
 Exemplos:
@@ -45,7 +45,7 @@ let nome = "Maria"; // String com aspas duplas
 let mensagem = `Bem-vinda, ${nome}`; // String com template literal e interpolação
 ```
 
- *Number*
+ ## Number
 Descrição: Números em JavaScript podem ser inteiros ou flutuantes e são usados para representar valores numéricos.
 
 Exemplos:
@@ -54,7 +54,7 @@ let idade = 30; // Número inteiro
 let altura = 1.75; // Número flutuante
 ```
 
-*Concatenação de Strings*
+##Concatenação de Strings*
 Descrição: A concatenação é o processo de unir duas ou mais strings. Pode ser feito com o operador + ou usando template literals.
 
 Exemplos:
@@ -69,7 +69,7 @@ let nomeCompleto = primeiroNome + ' ' + sobrenome; // "João Silva"
 // Usando template literals
 let nomeCompletoTemplate = `${primeiroNome} ${sobrenome}`; // "João Silva"
 ```
-**Estruturas Condicionais if-else**
+## Estruturas Condicionais if-else
 Descrição: As estruturas if-else permitem executar diferentes blocos de código com base em condições. Usadas para lógica condicional.
 
 Exemplos:
@@ -84,7 +84,7 @@ if (idade < 18) {
 } else {
     console.log('Maior de idade');
 ```
- **prompt**
+ ## prompt
 Descrição: A função prompt exibe uma caixa de diálogo que solicita ao usuário que insira um valor. O valor inserido é retornado como uma string.
 
 Exemplos:
