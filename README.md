@@ -154,3 +154,4 @@ let finalPrice = price - discount;
 let message = "O preço final após o desconto é de " + finalPrice + " reais."; 
 
 console.log(message);
+https://codepen.io/Guilherme-Jos-/pen/Bagwyjd
