@@ -54,7 +54,7 @@ let idade = 30; // Número inteiro
 let altura = 1.75; // Número flutuante
 ```
 
-##Concatenação de Strings*
+## Concatenação de Strings
 Descrição: A concatenação é o processo de unir duas ou mais strings. Pode ser feito com o operador + ou usando template literals.
 
 Exemplos:
