@@ -93,7 +93,54 @@ Exemplos:
 let nome = prompt('Qual é o seu nome?');
 console.log(`Olá, ${nome}!`);
 ```
+## Array 
+Descrição : Um array é uma estrutura de dados que armazena uma coleção de elementos em uma única variável. Os elementos podem ser do mesmo tipo de dados (por exemplo, números inteiros, strings, etc.) e são organizados de forma contígua na memória. Cada elemento em um array é acessado por um índice (ou chave numérica), começando geralmente do zero.
 
+```js
+// Criando um array com alguns números
+let numeros = [10, 20, 30, 40, 50];
+
+// Acessando elementos do array
+console.log(numeros[0]);  // Saída: 10
+console.log(numeros[2]);  // Saída: 30
+
+// Modificando um valor no array
+numeros[1] = 25;
+console.log(numeros);  // Saída: [10, 25, 30, 40, 50]
+
+// Adicionando um novo elemento no final do array
+numeros.push(60);
+console.log(numeros);  // Saída: [10, 25, 30, 40, 50, 60]
+
+// Removendo o último elemento do array
+numeros.pop();
+console.log(numeros);  // Saída: [10, 25, 30, 40, 50]
+
+// Encontrando o tamanho do array
+console.log(numeros.length);  // Saída: 5
+
+// Iterando sobre os elementos do array
+for (let i = 0; i < numeros.length; i++) {
+  console.log(numeros[i]);
+}
+
+// Usando forEach para iterar sobre o array
+numeros.forEach(function(numero) {
+  console.log(numero);
+});
+
+// Filtrando elementos maiores que 30
+let filtrados = numeros.filter(function(numero) {
+  return numero > 30;
+});
+console.log(filtrados);  // Saída: [40, 50]
+
+// Somando todos os elementos do array
+let soma = numeros.reduce(function(acumulador, valorAtual) {
+  return acumulador + valorAtual;
+}, 0);
+console.log(soma);  // Saída: 155
+´´´
 
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
