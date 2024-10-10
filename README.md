@@ -140,8 +140,10 @@ let soma = numeros.reduce(function(acumulador, valorAtual) {
   return acumulador + valorAtual;
 }, 0);
 console.log(soma);  // Saída: 155
-´´´
+´´´´
+
 ## Function
+
 Descrição: Uma função em programação é um bloco de código reutilizável que executa uma tarefa específica. Funções permitem dividir o código em partes menores e mais gerenciáveis, facilitando a leitura, manutenção e reutilização.
 ´´´js
 // Função para somar dois números
