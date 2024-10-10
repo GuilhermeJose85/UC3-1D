@@ -141,6 +141,30 @@ let soma = numeros.reduce(function(acumulador, valorAtual) {
 }, 0);
 console.log(soma);  // Saída: 155
 ´´´
+## Function
+Descrição: Uma função em programação é um bloco de código reutilizável que executa uma tarefa específica. Funções permitem dividir o código em partes menores e mais gerenciáveis, facilitando a leitura, manutenção e reutilização.
+´´´js
+// Função para somar dois números
+function somar(a, b) {
+    return a + b;
+}
+
+// Função para verificar se um número é par
+function ehPar(numero) {
+    return numero % 2 === 0;
+}
+
+// Chamando as funções e exibindo os resultados
+let resultadoSoma = somar(5, 3);
+console.log("Soma de 5 e 3:", resultadoSoma);  // Saída: 8
+
+let numero = 4;
+if (ehPar(numero)) {
+    console.log(numero + " é par!");  // Saída: 4 é par!
+} else {
+    console.log(numero + " é ímpar!");
+}
+´´´
 
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
